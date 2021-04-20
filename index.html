@@ -43,12 +43,12 @@
 
 
 <div class= "grid-container">
-          <div><img class="portfolio-img" src="img/portfolio-images-1.jpg" alt=" "/></div>
-          <div><img class="portfolio-img" src="img/portfolio-images-2.jpg" alt=" "/></div>
+          <div><img class="portfolio-img" src="img/portfolio-images-1.jpg" alt="Portotype image of the galaxy"/></div>
+          <div><img class="portfolio-img" src="img/portfolio-images-2.jpg" alt="Project image of Rachel's Design lab monogram and website"/></div>
           <div><h2 class="project-name">The Galaxy</h2></div>
           <div><h2 class="project-name">My Rebrand</h2></div>
-          <div><img class="portfolio-img" src="img/portfolio-images-3.jpg" alt=" "/></div>
-          <div><img class="portfolio-img" src="img/portfolio-images-4.jpg" alt=" "/></div>
+          <div><img class="portfolio-img" src="img/portfolio-images-3.jpg" alt="Image of my manifesto"/></div>
+          <div><img class="portfolio-img" src="img/portfolio-images-4.jpg" alt="Image of Networkit logo "/></div>
           <div><h2 class="project-name">My Manifesto</h2></div>
           <div><h2 class="project-name">Networkit</h2></div>
     </div>
@@ -75,76 +75,6 @@
                       <br>
                       <textarea name="message" class="form-control" placeholder="Type your message here..." row="4" required></textarea><br>
                       <input type="submit" class="form-control submit" value"SEND">
-
-
-
-
-
-
-
-
-
-
-
-
-
-                       <?php
-                       $errors = ”;
-                       $myemail = ‘rachelmd46@gmail.com’;//<—–Put Your email address here. if(empty($_POST[‘name’]) ||
-
-                       empty($_POST[’email’]) ||
-
-                       empty($_POST[‘message’]))
-
-                       {
-
-                       $errors .= “\n Error: all fields are required”;
-
-                       }
-
-                       $name = $_POST[‘name’];
-
-                       $email_address = $_POST[’email’];
-
-                       $message = $_POST[‘message’];
-
-                       if (!preg_match(
-
-                       “/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/i”, $email_address))
-
-                       {
-
-                       $errors .= “\n Error: Invalid email address”;
-
-                       }
-
-                       if( empty($errors))
-
-                       {
-
-                       $to = $myemail;
-
-                       $email_subject = “Contact form submission: $name”;
-
-                       $email_body = “You have received a new message. “.
-
-                       ”Here are the details:\n Name: $name \n “.
-
-                       “Email: $email_address\n Message \n $message”;
-
-                       $headers = “From: $myemail\n”;
-
-                       $headers .= “Reply-To: $email_address”;
-
-                       mail($to,$email_subject,$email_body,$headers);
-
-                       //redirect to the ‘thank you’ page
-
-                       header(‘Location: contact-form-thank-you.html’);
-
-                       }
-
-                       ?>
         </div>
       </section>
     </div>
@@ -187,41 +117,5 @@
           <small>The contents of this website are ©2020 Rachel Donaldson. Copyright and intellectual property of projects is owned by Rachel Donaldson</small>
   </footer>
   </body>
-
-  <!-- modify this form HTML and place wherever you want your form -->
-
-<form id="my-form" action="https://formspree.io/f/moqyvkjo" method="POST">
-  <label>Email:</label>
-  <input type="email" name="email" />
-  <label>Message:</label>
-  <input type="text" name="message" />
-  <button id="my-form-button">Submit</button>
-  <p id="my-form-status"></p>
-</form>
-
-<!-- Place this script at the end of the body tag -->
-
-<script>
-    var form = document.getElementById("my-form");
-
-    async function handleSubmit(event) {
-      event.preventDefault();
-      var status = document.getElementById("my-form-status");
-      var data = new FormData(event.target);
-      fetch(event.target.action, {
-        method: form.method,
-        body: data,
-        headers: {
-            'Accept': 'application/json'
-        }
-      }).then(response => {
-        status.innerHTML = "Thanks for your submission!";
-        form.reset()
-      }).catch(error => {
-        status.innerHTML = "Oops! There was a problem submitting your form"
-      });
-    }
-    form.addEventListener("submit", handleSubmit)
-</script>
 
 </html>
