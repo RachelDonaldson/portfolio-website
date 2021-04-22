@@ -446,7 +446,6 @@ nav ul li {
   overflow: hidden;
 }
 
-@media only screen and (max-width: 16000px) {
 
 .grid-container{
   max-width: 600px;}
