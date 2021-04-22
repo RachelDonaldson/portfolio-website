@@ -22,7 +22,7 @@ h1, h2, h3 {
 /*--- TYPOGRAPHIC HIERARCHY ---*/
 
 h1 {font-size: 2.5em; margin-bottom: .5em; color:#444}
-h2 {font-size: 1.5em; margin: 0.25em 0; color: #3c3c3b}
+h2 {font-size: 1.5em; margin: 0.75em 0; color: #3c3c3b}
 h3 {font-size: 1.90em; margin: 3em 0 1em 0}
 
 p {font-size: 1.25em;
@@ -190,7 +190,7 @@ img{
   /* grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: minmax(100px auto); */
 
-  grid-template-columns: repeat(2, minmax(250px, 1fr) ) ;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr) ) ;
 
 }
 
@@ -242,7 +242,7 @@ li {
   /* grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: minmax(100px auto); */
 
-  grid-template-columns: repeat(2, minmax(250px, 1fr) ) ;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr) ) ;
 
 }
 .blog-img{
@@ -276,11 +276,6 @@ color:#fff;
 }
 
 
-.crazy{
-  align-items: center;
-  margin: 2em 0 5em;
-}
-
 .background-colour{background-color: #f2f2f2;
   margin-top: 7em;
 }
@@ -300,12 +295,12 @@ color:#fff;
   /* grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: minmax(100px auto); */
 
-  grid-template-columns: repeat(2, minmax(250px, 1fr) ) ;}
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr) ) ;}
 
   #contact {
   padding: 4em 2em 6em 2em
   }
-#contact p {
+  #contact p {
   color: #3c3c3b;
   font-family: 'DM Sans', sans-serif;
   font-size: 20px}
@@ -411,23 +406,29 @@ footer .connections a:hover svg path {
 
 @media only screen and (max-width: 710px) {
   section {
-    width: 90%;
+    width: 85%;
     margin: auto;}
 
 header {
-      width: 90%;
+      width: 80%;
       margin-left: 3em;
-      padding: 14em 0 3em
+      padding: 5em 0 6em
       }
 
 header h1 {font-size: 3.25em;}
 header h2 {font-size: 1.5em;}
-header h3 {font-size: 1.5em;}
+header h3 {font-size: 1em;}
 header p {font-size: 1.25em;}
 
 .background-image {
-  height: 450px;
+  height: 300px;
 }
+
+.wordmark{
+  padding-bottom: 1em;
+}
+
+.break { display: none}
 
 nav {
   padding: 0.5em;
@@ -439,12 +440,26 @@ nav {
 }
 
 nav ul li {
-  display: block;
+  display: inline;
   margin: 10px;
   background: none;
   overflow: hidden;
 }
 
+@media only screen and (max-width: 16000px) {
+
+.grid-container{
+  max-width: 600px;}
+
+  background-image {
+    height: 300px;
+  }
+
+header h3 {font-size: 1.25em;
+   line-height: 1.5;}
+
 }
+
+
 
 /* .portfolio {grid-template-columns: repeat(2, minmax(150px, 1fr)); }*/
