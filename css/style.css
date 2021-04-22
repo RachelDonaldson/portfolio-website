@@ -118,6 +118,18 @@ a {
 .portfolio a:hover {
   opacity: ;}
 
+.contact-grid-container a {
+  color: #969696;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.5em;
+  text-decoration: none;
+}
+
+.contact-grid-container a:hover{
+  border-bottom: none;
+  color: #333;
+  transition: all 0.3s ease-in-out; }
+
 /*--- NAVIGATION ---*/
 
 nav {
@@ -406,7 +418,7 @@ footer .connections a:hover svg path {
 
 @media only screen and (max-width: 710px) {
   section {
-    width: 85%;
+    width: 80%;
     margin: auto;}
 
 header {
@@ -431,7 +443,7 @@ header p {font-size: 1.25em;}
 .break { display: none}
 
 nav {
-  padding: 0.5em;
+  padding: 1em;
 }
 
 .logo {
@@ -446,7 +458,6 @@ nav ul li {
   overflow: hidden;
 }
 
-
 .grid-container{
   max-width: 600px;}
 
@@ -457,7 +468,11 @@ nav ul li {
 header h3 {font-size: 1.25em;
    line-height: 1.5;}
 
+.contact-form {display: none}
+
 }
+
+
 
 
 
