@@ -309,6 +309,7 @@ color:#fff;
   #contact {
   padding: 4em 2em 6em 2em
   }
+
   #contact p {
   color: #3c3c3b;
   font-family: 'DM Sans', sans-serif;
@@ -484,16 +485,26 @@ header h3 {font-size: 1.25em;
     padding: 10vw;
   }
 
+  header {
+        width: 80%;
+        margin-left: 2em;
+        padding: 5em 0 6em
+        }
+
   .grid-container{
-
-    grid-template-columns: repeat(auto-fill, minmax(90%, 1fr) ) ;
-
+    grid-template-columns: repeat(auto-fill, minmax(85%, 1fr) ) ;
   }
 
 .blog-grid-container{
-  grid-template-columns: repeat(auto-fill, minmax(90%, 1fr) ) ;}
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(85%, 1fr) ) ;}
 
 .contact-grid-container{
     grid-template-columns: repeat(auto-fill, minmax(90%, 1fr) ) ;
 
   }
+
+  #contact {
+  padding: 0
+  }
+ .background-colour {padding; 0}
