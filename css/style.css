@@ -71,9 +71,6 @@ header {
 .wordmark{
   padding-bottom: 2em;
 }
- .indent {
-   text-indent:1em;
- }
 
 .highlight {color: #439ff6}
 
@@ -202,7 +199,7 @@ img{
   /* grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: minmax(100px auto); */
 
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr) ) ;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr) ) ;
 
 }
 
@@ -254,7 +251,7 @@ li {
   /* grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: minmax(100px auto); */
 
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr) ) ;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr) ) ;
 
 }
 .blog-img{
@@ -415,6 +412,15 @@ footer .connections a:hover svg path {
         fill:  #ac1065;
         transition: all 0.2s ease-in-out;}
 
+html, body {
+overflow-x: hidden;
+}
+
+body {
+position: relative;
+width: 100%;
+}
+
 
 @media only screen and (max-width: 710px) {
   section {
@@ -470,5 +476,24 @@ header h3 {font-size: 1.25em;
 
 }
 
+@media only screen and (max-width: 510px) {
 
-/* .portfolio {grid-template-columns: repeat(2, minmax(150px, 1fr)); }*/
+  section {
+    width: 80%;
+    margin: auto;
+    padding: 10vw;
+  }
+
+  .grid-container{
+
+    grid-template-columns: repeat(auto-fill, minmax(90%, 1fr) ) ;
+
+  }
+
+.blog-grid-container{
+  grid-template-columns: repeat(auto-fill, minmax(90%, 1fr) ) ;}
+
+.contact-grid-container{
+    grid-template-columns: repeat(auto-fill, minmax(90%, 1fr) ) ;
+
+  }
