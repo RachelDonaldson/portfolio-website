@@ -413,14 +413,6 @@ footer .connections a:hover svg path {
         fill:  #ac1065;
         transition: all 0.2s ease-in-out;}
 
-html, body {
-overflow-x: hidden;
-}
-
-body {
-position: relative;
-width: 100%;
-}
 
 
 @media only screen and (max-width: 710px) {
@@ -508,3 +500,8 @@ header h3 {font-size: 1.25em;
   padding: 0
   }
  .background-colour {padding; 0}
+
+ footer {
+   padding-bottom: 2em;
+ }
+}
