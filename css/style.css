@@ -458,8 +458,6 @@ nav ul li {
   overflow: hidden;
 }
 
-.grid-container{
-  max-width: 600px;}
 
   background-image {
     height: 300px;
@@ -471,9 +469,6 @@ header h3 {font-size: 1.25em;
 .contact-form {display: none}
 
 }
-
-
-
 
 
 /* .portfolio {grid-template-columns: repeat(2, minmax(150px, 1fr)); }*/
