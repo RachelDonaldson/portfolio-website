@@ -400,17 +400,22 @@ hr.border {
 }
 
 /*---PROJECT PAGES---*/
+
 header.project-hero
 {max-width: 1000px;
 margin-top: 2em;
 margin-bottom: 6em;
+align-content: center;
 }
 
-.my-roles ul {
+.my-roles{
 padding-top: 0.25em;
+text-align: center;
+align-items: center;
+margin: auto;
 }
 
-header .my-roles li {
+header .my-roles div {
 background-color: #f1f1f1;
 border: none;
 color:#333;
@@ -419,7 +424,7 @@ padding: 10px 21px;
 text-align: center;
 text-decoration: none;
 font-size: 18px;
-margin: 10px;
+margin: 5px;
 display: inline-block;
 }
 
@@ -431,6 +436,10 @@ display: inline-block;
 .galaxy-hero {background-color: #b1b1bc;}
 
 .icon {
+  height: 120px;
+}
+
+.icon-1 {
   height: 120px;
 }
 
@@ -485,11 +494,14 @@ hr.line-break {
 display: grid;
 grid-gap: 20px;
 grid-template-columns: auto auto;
-grid-template-columns: repeat(auto-fill, minmax(480px, 1fr) ) ;}
+grid-template-columns: repeat(auto-fill, minmax(360px, 1fr) ) ;}
 
 .icons-image {
   max-width:80%
 }
+
+.results{
+padding-bottom: 2em;}
 
 
 /*---RESEARCH AND EXPLORATION---*/
@@ -680,6 +692,10 @@ font-size: 2em}
    padding: 0em 0em 1em;
    margin: 0em 0em 3em'
  }
+
+.galaxy-hero{
+  margin-bottom: 2em;
+}
 
  .icon {
    height: 70px;
