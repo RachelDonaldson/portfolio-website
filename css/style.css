@@ -21,7 +21,7 @@ h1, h2, h3 {
 
 /*--- TYPOGRAPHIC HIERARCHY ---*/
 
-h1 {font-size: 3em; margin-bottom: .5em; color:#444}
+h1 {font-size: 3em; margin-bottom: .5em; word-spacing: -10px; color:#444}
 h2 {font-size: 2.5em; margin: 0.75em 0; text-align: center; color: #3c3c3b}
 h3 {font-size: 1.5em; margin-bottom: .5em; color: #a966ff}
 
@@ -61,10 +61,10 @@ header {
 
  header h3 {
   font-family: 'DM Sans', sans-serif;
-   font-size: 1.2em;
+   font-size: 1.4em;
    letter-spacing: 1px;
    margin: 0.4em;
-   line-height: 1;
+   line-height: 1.5;
    padding-bottom: 0em;
    text-align: center;
    color: #3c3c3b;
@@ -121,7 +121,7 @@ a {
 .contact-grid-container a {
   color: #969696;
   font-family: 'DM Sans', sans-serif;
-  font-size: 0.5em;
+  font-size: 1.25em;
   text-decoration: none;
 }
 
@@ -206,8 +206,9 @@ img{
 
 }
 
-.portfolio h1 {
-  text-align: center;
+.grid-container h2 {
+  text-align: left;
+  font-size: 2em;
 }
 
 li {
@@ -296,7 +297,10 @@ color:#fff;
 #blog p {
   color: #3c3c3b;
   font-family: 'DM Sans', sans-serif;
-  font-size: 20px}
+  font-size: 1.25em;
+  line-height: 1.5;
+  margin-bottom: 1em;
+  font-weight: 200;}
 
 /*--- CONTACT SECTION ---*/
 
@@ -319,7 +323,10 @@ color:#fff;
   #contact p {
   color: #3c3c3b;
   font-family: 'DM Sans', sans-serif;
-  font-size: 20px}
+  font-size: 1.25em;
+  line-height: 1.5;
+  margin-bottom: 1em;
+  font-weight: 200;}
 
   input[type=text], select, textarea {
     width: 100%;
