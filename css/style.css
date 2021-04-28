@@ -112,11 +112,12 @@ a {
   color: #fafafa;}
 
 .project-name a {
-  color: #9e6cf6;
+  color: #3c3c3b;
   border-bottom: none;}
 
 .project-name a:hover {
-  color: #9e6cf6;}
+  color: #9e6cf6;
+ transition: all 0.3s ease-in-out; }
 
 .contact-grid-container a {
   color: #9e6cf6;
