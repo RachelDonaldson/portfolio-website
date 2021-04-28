@@ -441,6 +441,8 @@ display: inline-block;
 
 .galaxy-hero {background-color: #b1b1bc;}
 
+.brand-hero {background-color: #9e6cf6;}
+
 .icon {
   height: 120px;
 }
@@ -510,9 +512,11 @@ grid-template-columns: repeat(auto-fill, minmax(360px, 1fr) ) ;}
 padding-bottom: 2em;}
 
 
-/*---RESEARCH AND EXPLORATION---*/
+/*---MY REBRAND---*/
 
-
+.header-img-1 {
+    width: 70%
+}
 
 /*---------------------------- FOOTER -----------------------------*/
 footer {
