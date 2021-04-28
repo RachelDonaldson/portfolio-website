@@ -23,7 +23,7 @@ h1, h2, h3 {
 
 h1 {font-size: 3em; margin-bottom: .5em; word-spacing: -10px; color:#444}
 h2 {font-size: 2.5em; margin: 0.75em 0; text-align: center; color: #3c3c3b}
-h3 {font-size: 1.5em; margin-bottom: .5em; color: #a966ff}
+h3 {font-size: 1.5em; margin-bottom: .5em; color: #9e6cf6}
 
 p {
   font-family: 'DM Sans', sans-serif;
@@ -56,7 +56,7 @@ header {
   line-height: 0.2;
   padding: 0em;
   text-align: center;
-  color: #a966ff;
+  color: #9e6cf6;
 }
 
  header h3 {
@@ -111,15 +111,15 @@ a {
 .background-colour a:hover {
   color: #fafafa;}
 
-.portfolio a {
-  color: #a966ff;
+.project-name a {
+  color: #9e6cf6;
   border-bottom: none;}
 
-.portfolio a:hover {
-  opacity: ;}
+.project-name a:hover {
+  color: #9e6cf6;}
 
 .contact-grid-container a {
-  color: #969696;
+  color: #9e6cf6;
   font-family: 'DM Sans', sans-serif;
   font-size: 1.25em;
   text-decoration: none;
@@ -163,10 +163,10 @@ nav ul li {
   background: none;}
 
 nav a:link {
-  color: #a966ff}
+  color: #9e6cf6}
 
 nav a:visited {
-  color: #a966ff}
+  color: #9e6cf6}
 
 nav a:hover {
   border-bottom: none;
@@ -211,6 +211,21 @@ img{
   font-size: 2em;
 }
 
+.grid-container h2 a:hover {
+  color: #9e6cf6;}
+}
+.grid-container h3 {
+  color: #9e6cf6;
+  font-family: 'DM Sans', sans-serif;
+  text-align: left;
+  font-size: 1.5em;
+}
+
+
+.inline-div {
+  display: inline-block;
+}
+
 li {
   position: relative;}
 
@@ -226,22 +241,6 @@ li {
  top:-10px;
 }
 
-.portfolio-title {
-  font-family:'Poppins', sans-serif;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  padding: 10px 0;
-  font-size: 0.85em;
-  font-weight: bold;
-  background-color: rgba(255, 255, 255, 0.8);
-  margin-bottom: 0;
-}
-
-.portfolio-title:hover{
-  background: #333;
-  color: #fff
-}
 
 /*--- BLOG SECTION ---*/
 
@@ -263,7 +262,7 @@ box-shadow: 0em 0em 0.7em 0.2em rgba(0,0,0,0.05);
 }
 
 .button{
-  background-color: #a966ff;
+  background-color: #9e6cf6;
   border: none;
   color:#fff;
   font-family: 'Space Mono', monospace;
@@ -351,7 +350,7 @@ color:#fff;
   }
 
   input[type=submit] {
-    background-color: #a966ff;
+    background-color: #9e6cf6;
     border: none;
     color:#fff;
     font-family: 'Space Mono', monospace;
@@ -375,7 +374,7 @@ color:#fff;
 
   .container {
     border-radius: 3px;
-    background-color: #a966ff;
+    background-color: #9e6cf6;
     padding: 20px;
   }
 
@@ -554,11 +553,11 @@ footer {
       margin: 2em auto;}
 
 .connections a:hover svg path {
-      fill: #ac1065;
+      fill: #9e6cf6;
       transition: all 0.2s ease-in-out;}
 
 footer .connections a:hover svg path {
-        fill:  #ac1065;
+        fill:  #9e6cf6;
         transition: all 0.2s ease-in-out;}
 
 
