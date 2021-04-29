@@ -139,9 +139,9 @@ nav {
   margin: auto;
   width: 100%;
   background-color:#fafafa;
-  padding: 1em 0 1em 0;
+  padding: 1.5em 0 1.5em 0;
   font-family: 'Space Mono', monospace;
-  font-size: 0.85em;
+  font-size: 1em;
   box-shadow: 0em 0em 0.7em 0.2em rgba(0,0,0,0.05);
   position: fixed;
   z-index: 99;
@@ -154,7 +154,7 @@ nav ul{
   text-transform: uppercase;
   letter-spacing: 1px;
   Position: relative;
-  Top: 40%;
+  Top: 50%;
   Transform: translateY(130%)
 }
 
@@ -178,7 +178,7 @@ nav a:hover {
   align: left;
   padding-left: 10vw;
   width: auto;
-  height: 40px;
+  height: 50px;
   Position: relative;
   Top: 40%;
   Transform: translateY(-40%)}
@@ -766,6 +766,29 @@ grid-gap: 2px;
   .header-man-img {
       width: 100%;
     }
+
+    nav {
+      top: 0;
+      left: 0;
+      margin: auto;
+      width: 100%;
+      background-color:#fafafa;
+      padding: 2em 0 2em 0;
+      font-family: 'Space Mono', monospace;
+      font-size: 0.85em;
+      box-shadow: 0em 0em 0.7em 0.2em rgba(0,0,0,0.05);
+      position: fixed;
+      z-index: 99;
+    }
+
+    .logo img{
+      align: left;
+      padding-left: 10vw;
+      width: auto;
+      height: 40px;
+      Position: relative;
+      Top: 40%;
+      Transform: translateY(-40%)}
 
     footer {
       text-align: right;
