@@ -318,7 +318,7 @@ color:#fff;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr) ) ;}
 
   #contact {
-  padding: 4em 2em 6em 2em
+  padding: 4em 0em 6em 0em
   }
 
   #contact p {
@@ -611,8 +611,8 @@ footer .connections a:hover svg path {
 
 
 @media only screen and (max-width: 710px) {
-  section {
-    width: 80%;
+section {
+    width: 90%;
     margin: auto;}
 
 header {
@@ -621,12 +621,12 @@ header {
       }
 
 header h1 {font-size: 3.25em;}
-header h2 {font-size: 1em;}
-header h3 {font-size: 1em;}
+header h2 {font-size: 1.2em;}
+header h3 {font-size: 1.5em;}
 header p {font-size: 1.25em;}
 
 .background-image {
-  height: 230px;
+  height: 260px;
   width: auto;
 }
 
@@ -653,11 +653,14 @@ nav ul li {
 }
 
   background-image {
-    height: 350px;
+    height: 200px;
+    width: auto;
   }
 
 header h3 {font-size: 1.25em;
    line-height: 1.5;}
+
+
 
 .contact-form {display: none}
 
@@ -666,9 +669,8 @@ header h3 {font-size: 1.25em;
 @media only screen and (max-width: 610px) {
 
   section {
-    width: 80%;
+    width: 90%;
     margin: auto;
-    padding: 5vw;
   }
 
   header {
@@ -682,21 +684,23 @@ h1 {
 h2 {margin: 0.5em, 0, 0.5em;
 font-size: 2em}
 
-header h3 {font-size: 1em;}
+header h3 {font-size: 1.1em;}
 
 .grid-container h2 {
   text-align: left;
-  font-size: 1.5em;
+  font-size: 1.75em;
 }
 
 .grid-container{
     grid-template-columns: repeat(auto-fill, minmax(85%, 1fr) ) ;
     padding: 5px;
+    width: 90%;
   }
 
 .blog-grid-container{
   grid-gap: 20px;
-  grid-template-columns: repeat(auto-fill, minmax(85%, 1fr) ) ;}
+  grid-template-columns: repeat(auto-fill, minmax(85%, 1fr) ) ;
+}
 
 .contact-grid-container{
     grid-template-columns: repeat(auto-fill, minmax(90%, 1fr) ) ;
@@ -721,9 +725,7 @@ header h3 {font-size: 1em;}
     grid-area: content
   }
 
-  #contact {
-  padding: 0
-  }
+
  .background-colour {padding; 0}
 
  footer {
