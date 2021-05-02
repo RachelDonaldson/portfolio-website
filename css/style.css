@@ -88,6 +88,7 @@ header {
     background-repeat: no-repeat;
     width: 100%;
     height: 450px;
+    text-align: center;
     background-size: cover;
     background-position: center;
 }
@@ -616,17 +617,17 @@ footer .connections a:hover svg path {
 
 header {
       width: 80%;
-      margin-left: 3em;
-      padding: 5em 0 6em
+      padding: 4em 0 1em
       }
 
 header h1 {font-size: 3.25em;}
-header h2 {font-size: 1.5em;}
+header h2 {font-size: 1em;}
 header h3 {font-size: 1em;}
 header p {font-size: 1.25em;}
 
 .background-image {
-  height: 300px;
+  height: 230px;
+  width: auto;
 }
 
 .wordmark{
@@ -651,9 +652,8 @@ nav ul li {
   overflow: hidden;
 }
 
-
   background-image {
-    height: 300px;
+    height: 350px;
   }
 
 header h3 {font-size: 1.25em;
@@ -668,13 +668,13 @@ header h3 {font-size: 1.25em;
   section {
     width: 80%;
     margin: auto;
-    padding: 10vw;
+    padding: 5vw;
   }
 
   header {
         width: 80%;
         float: center;
-        padding: 5em 0 6em
+        padding: 4em 0 1em
         }
 h1 {
   padding-bottom: 0.25em
@@ -682,8 +682,16 @@ h1 {
 h2 {margin: 0.5em, 0, 0.5em;
 font-size: 2em}
 
+header h3 {font-size: 1em;}
+
+.grid-container h2 {
+  text-align: left;
+  font-size: 1.5em;
+}
+
 .grid-container{
     grid-template-columns: repeat(auto-fill, minmax(85%, 1fr) ) ;
+    padding: 5px;
   }
 
 .blog-grid-container{
