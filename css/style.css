@@ -773,7 +773,7 @@ grid-gap: 2px;
       margin: auto;
       width: 100%;
       background-color:#fafafa;
-      padding: 2em 0 2em 0;
+      padding: 1em 0 1em 0;
       font-family: 'Space Mono', monospace;
       font-size: 0.85em;
       box-shadow: 0em 0em 0.7em 0.2em rgba(0,0,0,0.05);
@@ -783,12 +783,15 @@ grid-gap: 2px;
 
     .logo img{
       align: left;
-      padding-left: 10vw;
+      padding-left: 5vw;
       width: auto;
-      height: 40px;
+      height: 35px;
       Position: relative;
       Top: 40%;
       Transform: translateY(-40%)}
+
+      nav ul{
+        padding-right: 5vw;}
 
     footer {
       text-align: right;
