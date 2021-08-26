@@ -779,6 +779,11 @@ header h3 {font-size: 1.1em;}
     line-height: 1.7;
   }
 
+  p{
+    font-size: 1em;
+    line-height: 1.7;
+  }
+
 .background-colour {
   margin-top: 2em;
 }
