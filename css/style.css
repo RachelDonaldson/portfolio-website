@@ -660,7 +660,8 @@ header {
 header h1 {font-size: 3.25em;}
 header h2 {font-size: 1.2em;}
 header h3 {font-size: 1.5em;}
-header p {font-size: 1.25em;}
+header p {font-size: 1.2em;}
+
 
 .background-image {
   height: 260px;
@@ -774,8 +775,8 @@ header h3 {font-size: 1.1em;}
   }
 
   .content p{
-    font-size: 1.25em;
-    line-height: 1.5;
+    font-size: 1em;
+    line-height: 1.7;
   }
 
 .background-colour {
