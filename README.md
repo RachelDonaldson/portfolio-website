@@ -1,6 +1,6 @@
 Portfolio Website
 ======================
 
-[PORTFOLIO](https://rachelsdesignlab.com)
+[PORTFOLIO](https://racheldonaldson.github.io/portfolio-website/)
 *20 April 2021*
 Created portfolio website
